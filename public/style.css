@@ -1,0 +1,50 @@
+:root{
+     /* kleuren */
+ --background-color:#090940;
+     /* fonts */
+ --rigid: rigid-square, sans-serif;
+ --broodtekst:"yrsa","Trebuchet MS","Lucida Sans Unicode","Lucida Grande","Lucida Sans",Arial,sans-serif;
+}
+
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+header{
+    width: 100vw;
+    height: 20vh;
+    background-color:var(--background-color);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+header img{
+    height: 4em;
+    width: 4em;
+    margin-right: 1em;
+}
+svg{
+    height: 5em;
+    width: 5em;
+    margin-left: 0.5em;
+}
+
+
+
+header h1{
+    color: white;
+    font-family: var(--rigid);
+}
+
+footer{
+    width: 100vw;
+    height: 25vh;
+    background-color:var(--background-color);
+    display: flex;
+    justify-content: baseline;
+    flex-direction: row;
+    align-items: center;
+}
