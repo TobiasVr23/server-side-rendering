@@ -32,11 +32,23 @@ svg{
     margin-left: 0.5em;
 }
 
-
-
 header h1{
     color: white;
     font-family: var(--rigid);
+}
+
+.titel{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-self: center;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+.titel h2{
+    color: rgb(0, 0, 0);
+    font-family: var(--rigid);
+    margin: 0 auto;
 }
 
 footer{
@@ -47,4 +59,43 @@ footer{
     justify-content: baseline;
     flex-direction: row;
     align-items: center;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "main main main"
+    "main main main";
+    grid-area:main;
+    padding: 10px;
+    column-gap: 10px;
+    row-gap: 10px;
+    padding-top: 0;
+    margin-bottom: 2em;
+}
+
+.overzichtspagina, .methods{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.overzichtspagina:hover{
+    background-color: rgb(219, 219, 219);
+    transition: 0.1s;
+}
+.methods:hover{
+    background-color: rgb(219, 219, 219);
+    transition: 0.1s;
+}
+
+
+img.method-img{
+    width: 10em;
+    height: 10em;
 }

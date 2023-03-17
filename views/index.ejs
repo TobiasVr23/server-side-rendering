@@ -1,5 +1,21 @@
 <%- include('./partials/head') %>
+
+<div class="titel">
+    <h2>Overzicht</h2>
+</div>
+
 <main>
-    main
+    
+    <div class="overzichtspagina"
+       <% methods.forEach(method=> { %>
+        <div class="methods"> 
+            <h2><%= method.title %></h2>
+             <img class="method-img" src="<%= method.template?.url %>">
+             
+           
+             
+        </div> 
+       <% }) %>
+    </div>
 </main>
 <%- include('./partials/foot') %>
