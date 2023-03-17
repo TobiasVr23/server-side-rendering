@@ -17,11 +17,20 @@ Dit is een overzicht van de Visual Thinking leeromgeving, hier kan je allerlei i
 Hier kan je een link vinden: https://frightened-long-johns-bear.cyclic.app/
 
 ## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+Voor deze website heb ik een API gebruikt en de info eruit gestyled door ze met CSS in een grid te zetten.
+* Node
+* Ejs
+* Express
+* API
+* CSS
+* HTML
+* Javascript
 
 ## Installatie
+Voor de installatie van Node als je dit project forked doe je het volgende in de terminal npm install
 
 ## Gebruik
+Voor het draaien van een server lokaal op je laptop doe je het volgende in de terminal npm start
 
 ## Bronnen
 
