@@ -33,6 +33,9 @@ Voor de installatie van Node als je dit project forked doe je het volgende in de
 Voor het draaien van een server lokaal op je laptop doe je het volgende in de terminal npm start
 
 ## Bronnen
+https://github.com/orgs/fdnd-agency/projects/7
+https://api.visualthinking.fdnd.nl/
+https://github.com/fdnd-projects/visual-thinking/blob/0bcfc55d8c25483d18e5c6629ad7fa7e99ca7b51/vtHBO-styleguide-v1.pdf
 
 ## Licentie
 
