@@ -14,7 +14,8 @@ Hier is de leeromgeving van Visual Thinking.
 Dit is een overzicht van de Visual Thinking leeromgeving, hier kan je allerlei informartie vinden om jou te helpen om meer visueel te denken en communiceren.
 <br>
 <img src= "https://user-images.githubusercontent.com/112855854/225871220-c2bd888c-1a22-4a93-9e66-e8f78af1fef4.png" width=40% height=40%>
-Hier kan je een link vinden: https://frightened-long-johns-bear.cyclic.app/
+<br>
+Hier kan je een link vinden: https://worrisome-colt-ring.cyclic.app
 
 ## Kenmerken
 Voor deze website heb ik een API gebruikt en de info eruit gestyled door ze met CSS in een grid te zetten.
